@@ -1,0 +1,22 @@
+{
+  "name": "basico-ejercicio-03-jeshua-perez",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ejercicio 03 basico - modulos CommonJS (tematica MOBA esports)",
+  "type": "commonjs",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "cache": "node scripts/demo-cache.js",
+    "test": "node --test"
+  },
+  "author": "Jeshua Perez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
