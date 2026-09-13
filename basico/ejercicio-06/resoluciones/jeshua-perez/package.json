@@ -1,0 +1,22 @@
+{
+  "name": "basico-ejercicio-06-jeshua-perez",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ejercicio 06 basico - path y rutas seguras (tematica motos y mecanica)",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "rutas": "node scripts/demo-rutas.js",
+    "test": "node --test"
+  },
+  "author": "Jeshua Perez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

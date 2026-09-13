@@ -1,0 +1,8 @@
+ARCHIVO INTERNO - no debe servirse nunca por la API.
+
+Existe a proposito para demostrar el ataque de prefijo: la carpeta
+"publico-privado" empieza por "publico", asi que una comprobacion ingenua
+con startsWith(BASE) la dejaria pasar.
+
+Tarifa hora taller: 85000
+Margen repuestos: 34 por ciento

@@ -1,0 +1,5 @@
+Orden de servicio 1042
+Moto: Honda CB500F
+Kilometraje: 24350
+Trabajos: cambio de aceite, filtro de aire, ajuste de cadena
+Estado: cerrada
