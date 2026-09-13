@@ -1,0 +1,31 @@
+{
+  "name": "basico-ejercicio-02-jeshua-perez",
+  "version": "1.2.0",
+  "private": true,
+  "description": "Ejercicio 02 basico - npm scripts y package.json (tematica shooters competitivos)",
+  "keywords": ["npm", "scripts", "package-json", "express", "shooter"],
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "config": {
+    "puerto": "3000",
+    "modoTorneo": "competitivo"
+  },
+  "scripts": {
+    "prestart": "node scripts/verificar-entorno.js",
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "scripts:listar": "node scripts/reporte-scripts.js",
+    "loadout": "node scripts/generar-loadout.js",
+    "test": "node --test",
+    "test:watch": "node --test --watch",
+    "validar": "npm run scripts:listar && npm test"
+  },
+  "author": "Jeshua Perez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
