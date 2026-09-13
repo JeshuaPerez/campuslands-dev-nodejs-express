@@ -1,0 +1,22 @@
+{
+  "name": "basico-ejercicio-05-jeshua-perez",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ejercicio 05 basico - fs para leer archivos (tematica futbol y futbol sala)",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "informe": "node scripts/informe-liga.js",
+    "test": "node --test"
+  },
+  "author": "Jeshua Perez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

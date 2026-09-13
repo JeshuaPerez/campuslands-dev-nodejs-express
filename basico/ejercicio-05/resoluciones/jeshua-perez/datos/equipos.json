@@ -1,0 +1,12 @@
+{
+  "temporada": "2025-2026",
+  "competicion": "Liga local",
+  "equipos": [
+    { "id": 1, "nombre": "Atletico Bucaramanga", "modalidad": "futbol", "ganados": 12, "empatados": 4, "perdidos": 2, "golesFavor": 38, "golesContra": 15 },
+    { "id": 2, "nombre": "Deportivo Cabecera", "modalidad": "futbol", "ganados": 10, "empatados": 5, "perdidos": 3, "golesFavor": 31, "golesContra": 18 },
+    { "id": 3, "nombre": "Real Floridablanca", "modalidad": "futbol", "ganados": 7, "empatados": 6, "perdidos": 5, "golesFavor": 24, "golesContra": 22 },
+    { "id": 4, "nombre": "Sala Giron", "modalidad": "futsal", "ganados": 14, "empatados": 1, "perdidos": 3, "golesFavor": 72, "golesContra": 41 },
+    { "id": 5, "nombre": "Futsal Piedecuesta", "modalidad": "futsal", "ganados": 9, "empatados": 3, "perdidos": 6, "golesFavor": 58, "golesContra": 49 },
+    { "id": 6, "nombre": "Sala Provenza", "modalidad": "futsal", "ganados": 3, "empatados": 2, "perdidos": 13, "golesFavor": 34, "golesContra": 77 }
+  ]
+}
