@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "actualizadoEn": "2026-02-10T14:00:00.000Z",
+  "peleadores": [
+    {
+      "id": 1,
+      "nombre": "Ana Quintero",
+      "apodo": "La Tormenta",
+      "categoria": "ligero",
+      "pesoKg": 60,
+      "victorias": 18,
+      "derrotas": 3,
+      "empates": 1,
+      "ko": 11,
+      "debutEn": "2019-04-12"
+    },
+    {
+      "id": 2,
+      "nombre": "Marco Duarte",
+      "apodo": "El Muro",
+      "categoria": "medio",
+      "pesoKg": 75,
+      "victorias": 24,
+      "derrotas": 6,
+      "empates": 2,
+      "ko": 9,
+      "debutEn": "2016-09-03"
+    },
+    {
+      "id": 3,
+      "nombre": "Lucia Ferrer",
+      "apodo": "Relampago",
+      "categoria": "pluma",
+      "pesoKg": 54,
+      "victorias": 12,
+      "derrotas": 1,
+      "empates": 0,
+      "ko": 8,
+      "debutEn": "2021-06-19"
+    },
+    {
+      "id": 4,
+      "nombre": "Hugo Salcedo",
+      "apodo": "Titan",
+      "categoria": "pesado",
+      "pesoKg": 96,
+      "victorias": 15,
+      "derrotas": 9,
+      "empates": 0,
+      "ko": 13,
+      "debutEn": "2015-01-25"
+    }
+  ]
+}
