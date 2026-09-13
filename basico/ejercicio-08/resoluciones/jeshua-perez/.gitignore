@@ -1,0 +1,6 @@
+# El .gitignore de la raiz ignora .env.* , lo que tambien tapa el ejemplo.
+# Esta negacion lo vuelve a incluir: el ejemplo SI debe viajar en el repo.
+!.env.example
+
+# El .env real nunca se sube.
+.env

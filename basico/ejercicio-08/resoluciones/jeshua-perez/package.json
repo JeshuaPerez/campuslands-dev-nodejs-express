@@ -1,0 +1,23 @@
+{
+  "name": "basico-ejercicio-08-jeshua-perez",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ejercicio 08 basico - variables de entorno (tematica hiperdeportivos)",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node --env-file=.env src/server.js",
+    "dev": "node --env-file=.env --watch src/server.js",
+    "verificar": "node --env-file=.env scripts/verificar-entorno.js",
+    "verificar:sin-env": "node scripts/verificar-entorno.js",
+    "test": "node --test"
+  },
+  "author": "Jeshua Perez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
