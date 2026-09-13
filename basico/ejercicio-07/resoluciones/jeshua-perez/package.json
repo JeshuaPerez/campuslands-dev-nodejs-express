@@ -1,0 +1,25 @@
+{
+  "name": "basico-ejercicio-07-jeshua-perez",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ejercicio 07 basico - process.argv y CLI (tematica autos de lujo)",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "concesionario": "src/cli/index.js"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "cli": "node src/cli/index.js",
+    "test": "node --test"
+  },
+  "author": "Jeshua Perez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
