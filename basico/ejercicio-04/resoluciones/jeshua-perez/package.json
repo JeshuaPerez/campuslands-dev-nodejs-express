@@ -1,0 +1,22 @@
+{
+  "name": "basico-ejercicio-04-jeshua-perez",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ejercicio 04 basico - modulos ES Modules (tematica battle royale)",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "esm": "node scripts/demo-esm.js",
+    "test": "node --test"
+  },
+  "author": "Jeshua Perez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
