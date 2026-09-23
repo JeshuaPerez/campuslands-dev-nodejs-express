@@ -1,0 +1,67 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "API de formulas quimicas",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/formulas": {
+      "get": {
+        "summary": "Lista las formulas",
+        "responses": {
+          "200": {
+            "description": "Lista de formulas",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "ok": { "type": "boolean" },
+                    "data": {
+                      "type": "array",
+                      "items": { "$ref": "#/components/schemas/Formula" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Crea una formula",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["nombre", "simbolo"],
+                "properties": {
+                  "nombre": { "type": "string" },
+                  "simbolo": { "type": "string" }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": { "description": "Formula creada" },
+          "400": { "description": "Datos invalidos" }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Formula": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "nombre": { "type": "string" },
+          "simbolo": { "type": "string" }
+        }
+      }
+    }
+  }
+}
