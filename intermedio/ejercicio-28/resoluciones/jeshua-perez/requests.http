@@ -1,0 +1,24 @@
+@baseUrl = http://localhost:3048
+
+### Listar jugadores
+GET {{baseUrl}}/jugadores
+
+### Crear un jugador
+POST {{baseUrl}}/jugadores
+Content-Type: application/json
+
+{
+  "nombre": "Ninja"
+}
+
+### Crear un jugador sin nombre (400 esperado)
+POST {{baseUrl}}/jugadores
+Content-Type: application/json
+
+{}
+
+### Obtener un jugador que no existe (404 esperado)
+GET {{baseUrl}}/jugadores/999
+
+### Eliminar (marcar como no vivo) al jugador 1
+PATCH {{baseUrl}}/jugadores/1/eliminar
