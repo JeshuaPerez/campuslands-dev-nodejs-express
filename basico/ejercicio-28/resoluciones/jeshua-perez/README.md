@@ -4,13 +4,13 @@
 
 Tematica battle royale. `src/config/env.js` lee `NODE_ENV`, `PORT` y
 `MAX_JUGADORES` de `process.env`, con valores por defecto y validacion de
-`PORT`. Ver `.env.example` para las variables esperadas.
+`PORT`. Ver `env.example` para las variables esperadas.
 
 ## Como ejecutar
 
 ```bash
 npm install
-cp .env.example .env
+cp env.example .env
 npm run dev
 ```
 
