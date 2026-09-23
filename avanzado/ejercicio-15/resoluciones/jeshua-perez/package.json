@@ -1,0 +1,14 @@
+{
+  "name": "avanzado-ejercicio-15-jeshua-perez",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "helmet": "^7.1.0"
+  }
+}
